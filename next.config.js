@@ -5,6 +5,7 @@ const withNextra = require('nextra')({
 
 module.exports = {
   ...withNextra(),
+  basePath: "/nextra-github-pages",
   // 2. Enable static export
   output: 'export',
   images: {
