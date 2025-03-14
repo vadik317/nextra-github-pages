@@ -5,6 +5,8 @@ const withNextra = require('nextra')({
 
 module.exports = {
   ...withNextra(),
+  // 2. Enable static export
+  output: 'export',
   images: {
     unoptimized: true,
   },
